@@ -7,7 +7,7 @@
 # still using the EOL'd FreeBSD 8.3, and those packages are no longer
 # available in the primary repo:
 
-export PACKAGESITE=ftp://ftp-archive.freebsd.org/pub/FreeBSD-Archive/ports/`/usr/bin/uname -m`/packages-8.3-release/Latest/
+export PACKAGESITE=http://pkg.freebsd.org/freebsd:10:x86:64/latest
 
 # Stop the controller if it's already running...
 # First let's try the rc script if it exists:
